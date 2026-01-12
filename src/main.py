@@ -34,7 +34,7 @@ app = FastAPI(
 # CORS middleware to allow requests from localhost:3000
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "https://phase-3-testing.vercel.app/", "https://phase-3-testing.vercel.app"],  # Frontend URL
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000", "https://task-flow-web-app.vercel.app/", "https://task-flow-web-app.vercel.app"],  # Frontend URL
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
